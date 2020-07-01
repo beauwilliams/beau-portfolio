@@ -108,34 +108,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"JavaVim The Premade Java Development Containers",
+        "category":"Dockerfile",
+        "image":"javavim.jpg",
+        "url":"https://github.com/beauwilliams/JavaVim"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"The BigO",
+        "category":"Various Examples of Complecity in a variety of languages",
+        "image":"thebigo.jpg",
+        "url":"https://github.com/beauwilliams/TheBigO"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Microsoft Student Accelerator Bootcamp Content (AI/ML)",
+        "category":"Some guides to deploy an ML model, plus more wrapped in a nice site",
+        "image":"msa.jpg",
+        "url":"https://beauwilliams.github.io/MSA-AUS-2020-AzureML/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Dotfiles Repository",
+        "category":"Various dotfiles such as zsh/bash, nvim/vim etc that I have spent a fair emount of time building",
+        "image":"dotfiles.jpg",
+        "url":"https://beauwilliams.github.io/MSA-AUS-2020-AzureML/"
       }
     ]
   },
