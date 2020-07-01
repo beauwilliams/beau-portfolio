@@ -1,0 +1,154 @@
+{
+  "main": {
+    "name":"Beau Williams",
+    "occupation":"Junior Developer",
+    "description":"Scroll down for a little bit about me",
+    "image":"profilepic.jpg",
+    "bio":"I've loved all things computers my whole life. Once I was told that when I was very young there were two things I would only ever ask for, 'can I have a bikkie' and 'can I play on the compooter' (how I would have pronounced it then). I'm trying not to get too comfortable in any specific language or technology stack, but to develop routines that allow me to freely move from one to the next with ease.",
+    "contactmessage":"You can reach out to me via email, LinkedIn or GitHub",
+    "email": "beau.williams@icloud.com",
+    "phone": "",
+    "address":{
+      "city":"Sydney",
+      "state":"NSW",
+      "zip": "Australia"
+    },
+    "website": "http://www.FILLTHISIN.com",
+    "resumedownload":"http://FILLTHISIN.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://au.linkedin.com/in/beau-w-223b0768",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/beauwilliams",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Macquarie University",
+        "degree":"Bachelor IT maj. Software Technology",
+        "graduated":"2022",
+        "description":"Currently the Google Student Developer Club lead, also enjoy participating in research workshops and active on the computing discord channel"
+      }
+    ],
+    "work":[
+      {
+        "company":"School24",
+        "title":"Tech/Business Operations",
+        "years":"Sep 2019 - Present",
+        "description":"Using my past experience in business development, technical support and my knowledge and expertise in software engineering & cybersecurity I am helping to support this growing business. By taking a jack of all trades position my goal here is to implement processes and strategies I have learnt over the years during my short career - such as modernising how we communicate, how we manage information internally, ensuring data is handled correctly, maintaining an exceptional level of customer service as a company and managing customer feedback on the platform so that improvments are made in line with their expectations."
+      },
+      {
+        "company":"SkaterHQ",
+        "title":"Scooter Coach",
+        "years":"May 2019 - Aug 2019",
+        "description":"One of my passions growing up was scootering, I have spent a huge part of my life doing it and it has taught me great insights about myself. My proudest achievement is taking a best trick prize at an Australian street competition. I was invited to teach the children scooter lessons at Northern Beaches Christian School for their school sport. I had so much fun doing it, and was great to help them learn new tricks and have a great afternoon doing it. Overall this is my first experience being paid to coach kids, and I realised quickly it can be a lot harder than it seems! I took advice from the experienced skateboarding coaches and watched how they do it and eventually found my rhythm. Best thing about this job is it gave me time to focus on pivoting back to a technical field during 2019."
+      },
+      {
+        "company":"Auth0",
+        "title":"Business Development, APAC",
+        "years":"Dec 2018 - May 2019",
+        "description":"At Auth0 I was pleased to have the opportunity to perform outbound engagement for the APAC region. My strategic abilities are paramount in combination with my ability to engage cold with CTO's and other tech heads in leading Australian organisations through a targeted omnichannel approach, in part developed through my experience."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"Rust",
+        "level":"30%"
+      },
+      {
+        "name":"C/C++",
+        "level":"30%"
+      },
+      {
+        "name":"Python",
+        "level":"30%"
+      },
+      {
+        "name":"Haskell",
+        "level":"20%"
+      },
+      {
+        "name":"Javascript",
+        "level":"40%"
+      },
+      {
+        "name":"SQL",
+        "level":"40%"
+      },
+      {
+        "name":"Node/React/Gatsby",
+        "level":"30%"
+      },
+      {
+        "name":"Dart/Flutter",
+        "level":"20%"
+      },
+      {
+        "name":"Containers/Docker",
+        "level":"60%"
+      },
+      {
+        "name":"Unix-Like Architecture",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
