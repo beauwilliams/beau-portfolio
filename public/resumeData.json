@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Beau Williams",
-    "occupation":"Junior Developer",
+    "occupation":"Junior Dev",
     "description":"Scroll down for a little bit about me",
     "image":"profilepic.jpg",
     "bio":"I've loved all things computers my whole life. Once I was told that when I was very young there were two things I would only ever ask for, 'can I have a bikkie' and 'can I play on the compooter' (how I would have pronounced it then). I'm trying not to get too comfortable in any specific language or technology stack, but to develop routines that allow me to freely move from one to the next with ease.",
@@ -142,12 +142,8 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"I worked with Beau for a number of years, he is young, bright and full of enthusiasm. He has a solid understanding of the industry he works in and keeps his finger on the pulse when it comes to what is upcoming and relevant. He is a great team player, honest and sincere and a joy to work with.",
+        "user":"Mark Black"
       }
     ]
   }
