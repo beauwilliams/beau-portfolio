@@ -61,24 +61,28 @@ header .banner {
 header .banner-text {
   width: 100%;
 }
+/* BEAU > MODIFY NAME HERE*/
 header .banner-text h1 {
-  font: 90px/1.1em 'opensans-bold', sans-serif;
+  font: 90px/1.1em 'Shrikhand', cursive;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
+/* orig #a8a8a8 BEAU > Note this changes 'i'm a sydney based dev bit*/
 header .banner-text h3 {
-  font: 17px/1.9em 'librebaskerville-regular', serif;
-  color: #a8a8a8;
+  font: 13px/1.9em 'Fira Code', monospace;
+  color: #ffcccc;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
-header .banner-text h3 span,
+/*header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
 }
+HIGHLIGHTS MY JOB TITLE IF I WANT IT
+*/
 header .banner-text hr {
   width: 60%;
   margin: 18px auto 24px auto;
@@ -140,9 +144,11 @@ header .scrolldown a:hover {
   outline: none;
 }
 
-/* nav-wrap */
+/* nav-wrap  AKA THE TOP BAR */
 #nav-wrap {
-  font: 12px 'opensans-bold', sans-serif;
+  font: 13px 'Fira Code', monospace;
+  font-weight: 600;
+
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -219,9 +225,9 @@ ul#nav li.current a {
 #about a:focus {
   color: #11abb0;
 }
-
+/* changes the ME and CONTACT bits */
 #about h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
+  font: 20px 'Fira Code', monospace;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -231,8 +237,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -277,18 +283,21 @@ ul#nav li.current a {
 #resume a:focus {
   color: #313131;
 }
-
+/*the bits like education.. experience etc*/
 #resume h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 18px/24px 'Fira Code', monospace;
+  color: #099ba0;
+  font-weight: lighter;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 #resume h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
+/* BEAU > CHANGES COMPANY TITLE */
 #resume h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
+  font: 20px/25px 'Fira Code', monospace;
+  font-weight: 900;
 }
 
 #resume .header-col {
@@ -304,8 +313,10 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
+/* BEAU > changes job role i.e 'Scooter Coach' etc */
 #resume .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
+  font: 12px/20px 'Fira Code', monospace;
+  font-weight: 500;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -314,8 +325,9 @@ ul#nav li.current a {
   margin-right: 5px;
   margin-left: 5px;
 }
+/* BEAU > CHANGES THE DATE of jobs i.e may 2018 - Jun 2020 */
 #resume .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
+  font: 15px/24px 'Fira Code', monospace;
   margin-top: 6px;
 }
 
@@ -340,8 +352,9 @@ ul#nav li.current a {
   height: 42px;
   border-radius: 3px;
 }
+/* BEAU > CHANGES FONT OF BARS, i.e JAVA etc */
 .bars li em {
-  font: 15px 'opensans-bold', sans-serif;
+  font: 15px 'Fira Code', monospace;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -630,10 +643,11 @@ ul#nav li.current a {
   opacity: 0;
 }
 
+/* BEAU > WHAT IS CALL TO ACTION MEANT TO BE? Removed it but not effect on site, leaving removed for now perhaps to do with CONTACT section which I removed
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
-
+/*
 #call-to-action {
   background: #212121;
   padding-top: 66px;
@@ -679,6 +693,7 @@ call-to-action .button {
    background: #0D0D0D;
 }
 */
+/*
 #call-to-action .button:hover,
 #call-to-action .button:active {
   background: #ffffff;
@@ -688,13 +703,14 @@ call-to-action .button {
   font-family: 'opensans-semibold', sans-serif;
   color: #d8d8d8;
 }
-
+*/
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Recommendations
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+#recommendations {
+  background: #1f1f1f url(../images/recommendations-bg.jpg) no-repeat center
+    center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
@@ -704,23 +720,24 @@ call-to-action .button {
   width: 100%;
   overflow: hidden;
 }
-#testimonials .text-container {
+#recommendations .text-container {
   padding-top: 96px;
   padding-bottom: 66px;
 }
-#testimonials h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+/* BEAU > DOESNT CHANGE NOTHING */
+#recommendations h1 {
+  font: 18px/24px 'Fira Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
 }
-#testimonials h1 span {
+#recommendations h1 span {
   display: none;
 }
-#testimonials .header-col {
+#recommendations .header-col {
   padding-top: 9px;
 }
-#testimonials .header-col h1:before {
+#recommendations .header-col h1:before {
   font-family: 'FontAwesome';
   content: '\f10d';
   padding-right: 10px;
@@ -732,34 +749,35 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#recommendations blockquote {
   margin: 0 0px 30px 0px;
   padding-left: 0;
   position: relative;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before {
+#recommendations blockquote:before {
   content: none;
 }
-#testimonials blockquote p {
+/* BEAU > RECOMMENDATIONS QUOTE FONT CHANGE HERE */
+#recommendations blockquote p {
   font-family: 'librebaskerville-italic', serif;
   padding: 0;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 48px;
   color: #fff;
 }
-#testimonials blockquote cite {
+#recommendations blockquote cite {
   display: block;
   font-size: 12px;
   font-style: normal;
   line-height: 18px;
   color: #fff;
 }
-#testimonials blockquote cite:before {
+#recommendations blockquote cite:before {
   content: '\2014 \0020';
 }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited {
+#recommendations blockquote cite a,
+#recommendations blockquote cite a:visited {
   color: #8b9798;
   border: none;
 }

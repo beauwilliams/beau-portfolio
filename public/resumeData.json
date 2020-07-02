@@ -29,7 +29,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Some languages and technologies I have experience with",
+    "skillmessage": "Some languages and technologies I have recent experience with. By no means exhaustive.",
     "education": [
       {
         "school": "Macquarie University",
@@ -53,35 +53,35 @@
       },
       {
         "company": "Auth0",
-        "title": "Business Development, APAC",
+        "title": "Business Development APAC",
         "years": "Dec 2018 - May 2019",
-        "description": "At Auth0 I was pleased to have the opportunity to perform outbound engagement for the APAC region. My strategic abilities are paramount in combination with my ability to engage cold with CTO's and other tech heads in leading Australian organisations through a targeted omnichannel approach, in part developed through my experience."
+        "description": "At Auth0 I was pleased to have the opportunity to lead outbound engagement for the APAC region. My strategic abilities are paramount in combination with my ability to engage cold with CTO's and other tech heads in leading Australian organisations through a targeted omnichannel approach, in part developed through my experience."
       }
     ],
     "skills": [
       {
         "name": "Java",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "Rust",
-        "level": "30%"
+        "level": "50%"
       },
       {
         "name": "C/C++",
-        "level": "30%"
+        "level": "40%"
       },
       {
         "name": "Python",
-        "level": "30%"
+        "level": "50%"
       },
       {
         "name": "Haskell",
-        "level": "20%"
+        "level": "30%"
       },
       {
         "name": "Javascript",
-        "level": "40%"
+        "level": "60%"
       },
       {
         "name": "SQL",
@@ -89,33 +89,33 @@
       },
       {
         "name": "Node/React/Gatsby",
-        "level": "30%"
+        "level": "50%"
       },
       {
         "name": "Dart/Flutter",
-        "level": "20%"
+        "level": "30%"
       },
       {
-        "name": "Containers/Docker",
+        "name": "Containers/Jails",
         "level": "60%"
       },
       {
         "name": "Unix-Like Architecture",
-        "level": "60%"
+        "level": "80%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "JavaVim The Premade Java Development Containers",
-        "category": "Dockerfile",
+        "title": "JavaVim Auto Enviroment Build",
+        "category": "Lightweight Java Development Environment Containers with automated vim setup - simply run and code",
         "image": "javavim.jpg",
         "url": "https://github.com/beauwilliams/JavaVim"
       },
       {
         "title": "The BigO",
-        "category": "Various Examples of Complecity in a variety of languages",
+        "category": "Various Examples of Complexity in a variety of languages",
         "image": "thebigo.jpg",
         "url": "https://github.com/beauwilliams/TheBigO"
       },

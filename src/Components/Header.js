@@ -50,12 +50,15 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className='smoothscroll' href='#testimonials'>
+              <a className='smoothscroll' href='#recommendations'>
                 Recommendations
               </a>
             </li>
             <li>
-              <a className='smoothscroll' href='#contact'>
+              <a
+                className='smoothscroll'
+                href='https://tawk.to/chat/5efd85339e5f69442291b5df/default'
+              >
                 Contact
               </a>
             </li>

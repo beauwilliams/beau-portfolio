@@ -29,8 +29,6 @@ e. Others
 @import url('fonts.css');
 @import url(fontello/css/fontello.css);
 @import url(font-awesome/css/font-awesome.min.css);
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
-/* BW > a great font for developers - NOTE, can omit the '' for URL in imports etc
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -220,11 +218,11 @@ html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
 }
-
+/* BEAU > CHANGE THE MAIN BODY FONT HERE */
 body {
   background: #fff;
-  font-family: 'opensans-regular', sans-serif;
-  font-weight: normal;
+  font-family: 'Fira Code', monospace;
+  font-weight: lighter;
   font-size: 12px;
   line-height: 20px;
   color: #838c95;
