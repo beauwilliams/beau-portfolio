@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Recommendations extends Component {
   render () {
     if (this.props.data) {
-      var recommendations = this.props.data.recommendations.map(function (
+      var recommendationData = this.props.data.recommendations.map(function (
         recommendations
       ) {
         return (
@@ -28,7 +28,7 @@ class Recommendations extends Component {
             </div>
 
             <div className='ten columns flex-container'>
-              <ul className='slides'>{recommendations}</ul>
+              <ul className='slides'>{recommendationData}</ul>
             </div>
           </div>
         </div>

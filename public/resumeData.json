@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Beau Williams",
-    "occupation": "Junior Dev",
+    "occupation": "Developer",
     "description": "Scroll down for a little bit about me",
     "image": "profilepic.jpg",
-    "bio": "I've loved all things computers my whole life. Once I was told that when I was very young there were two things I would only ever ask for, 'can I have a bikkie' and 'can I play on the compooter' (how I would have pronounced it then). I'm trying not to get too comfortable in any specific language or technology stack, but to develop routines that allow me to freely move from one to the next with ease.",
+    "bio": "I've loved all things computers my whole life. My family tells me that when I was a little boy there were only ever two things I would ask for, 'can I have a bikkie' and 'can I play on the compooter'. I'm trying not to get too comfortable in any specific language or technology stack, but to develop routines that allow me to freely move from one to the next with ease.",
     "contactmessage": "You can reach out to me via email, LinkedIn or GitHub",
     "email": "beau.williams@icloud.com",
     "phone": "",
