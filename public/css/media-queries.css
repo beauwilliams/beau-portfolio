@@ -218,7 +218,7 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { display: block; /* BEAU > NOTE used to say "none" but wanted profile pic in mobile UI*/
       margin-bottom: 50px;
-      margin-left: 130px;
+      margin-left: 140px;
          }
 
    #about .download .button {
