@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class About extends Component {
-  render () {
+  render() {
     if (this.props.data) {
       var name = this.props.data.name
       var profilepic = 'images/' + this.props.data.image
@@ -26,7 +26,7 @@ class About extends Component {
             />
           </div>
           <div className='nine columns main-col'>
-            <h2>Whoami</h2>
+            <h2>whoami</h2>
 
             <p>{bio}</p>
             <div className='row'>
