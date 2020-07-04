@@ -10,10 +10,13 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fira+Code:wght@300;500&family=Fira+Sans&family=Roboto:ital,wght@1,100&family=Shrikhand&display=swap');
   </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
   <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
   <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
   <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
   <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
+  <!--load cloudflare icons for formspree-->
 
   <title>Beau Williams Portfolio</title>
 </head>
@@ -37,7 +40,7 @@
   <script src="js/magnific-popup.js"></script>
   <script src="js/init.js"></script>
 
-  <!--Start of Tawk.to Script-->
+  <!--Start of Tawk.to Script--
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date()
@@ -51,7 +54,66 @@
         s0.parentNode.insertBefore(s1, s0)
       })()
   </script>
-  <!--End of Tawk.to Script-->
+  !--End of Tawk.to Script-->
+  <!-- See more examples of how to use Formbutton at formspree.io/formbutton/docs -->
+  <script src="https://formspree.io/js/formbutton-v1.0.1.min.js" defer></script>
+  <script>
+    window.formbutton =
+      window.formbutton ||
+      function () {
+        (formbutton.q = formbutton.q || []).push(arguments);
+      };
+    formbutton("create", {
+      action: "https://formspree.io/mbjzzgkn",
+      title: " Got questions? 👋",
+      description: "I'll get back to you.. I promise.",
+      theme: "classic",
+      buttonImg: "<i class='fas fa-comment' style='font-size:24px'/>",
+      styles: {
+        color: "#6D6875",
+        button: {
+          backgroundColor: "#75cc75",
+          fill: "#fffffa",
+          opacity: "86%",
+          borderRadius: "40px",
+          width: "50px",
+          height: "50px",
+
+        },
+        shim: {
+          backgroundColor: "rgba(0,0,0,0)"
+        },
+        title: {
+          fontFamily: "Satisfy",
+          fontSize: "2.8em",
+          backgroundColor: "#d38e6e",
+          textShadow: "3px 3px 0 #6D6875," +
+            "-1px -1px 0 #6D6875," +
+            "1px -1px 0 #6D6875," +
+            "-1px 1px 0 #6D6875," +
+            "1px 1px 0 #6D6875"
+        },
+        modal: {
+          background: "#baa9b7",
+        },
+        description: {
+          backgroundColor: "#fcf5e7"
+        },
+        input: {
+          backgroundColor: "#fcf5e7",
+          boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
+          border: "1px solid rgba(0,0,0,0.1)"
+        },
+        submitLabel: {
+          marginTop: "18px"
+        },
+        closeButton: {
+          display: "none"
+        }
+      },
+      initiallyVisible: "true"
+    });
+  </script>
 </body>
 
 </html>
