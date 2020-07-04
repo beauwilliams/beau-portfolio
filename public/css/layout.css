@@ -889,11 +889,11 @@ call-to-action .button {
   background: rgba(255, 255, 255, 0.9);
   cursor: default;
 }
-
+/* BEAU > COMMENTING OUT CONTACT SECTION CSS AS NOT USING IT*/
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
-
+/*
 #contact {
   background: #191919;
   padding-top: 96px;
@@ -947,7 +947,11 @@ call-to-action .button {
   padding-top: 6px;
 }
 
+*/
+
 /* contact form */
+
+/*
 #contact form {
   margin-bottom: 30px;
 }
@@ -1024,8 +1028,10 @@ call-to-action .button {
   left: 18px;
   top: 17px;
 }
+*/
 
 /* Twitter Feed */
+/*
 #twitter {
   margin-top: 12px;
   padding: 0;
@@ -1042,7 +1048,7 @@ call-to-action .button {
   color: #474747 !important;
   border: none;
 }
-
+*/
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */

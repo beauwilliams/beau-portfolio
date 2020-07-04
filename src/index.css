@@ -1,11 +1,11 @@
-
+/* BEAU > NOTE I COMMENTED OUT BELOW, LEAVING FOR FUTURE REF. SET MOBILE DISPLAY FONTS FOR "BEAU WILLIAMS" ETC USING media-queries.css mobile css sections for diff display sizes
 /* BEAU > MODIFY NAME HERE
 NOTE: HAD TO PUT THIS HERE AS WELL AS IN LAYOUTS CSS AS ON MOBILE DEVICES THE FONT WAS NOT BEING APPLIED
 */
-header .banner-text h1 {
+/*header .banner-text h1 {
   font: 90px/1.1em 'Shrikhand', cursive;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-}
+}*/
