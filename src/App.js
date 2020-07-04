@@ -11,7 +11,7 @@ import Recommendations from './Components/Recommendations'
 import Portfolio from './Components/Portfolio'
 
 class App extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       function: 'constructor', //BW > not sure what this does
@@ -22,7 +22,7 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname)
   }
 
-  getResumeData () {
+  getResumeData() {
     $.ajax({
       url: '/resumeData.json',
       dataType: 'json',
@@ -37,12 +37,12 @@ class App extends Component {
     })
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.getResumeData()
   }
   // BW > FUTURE NOTE, REMOVED Contact widget replaced with 3rd party chat widget, code is preserved below to be placed in return()
   // <Contact data={this.state.resumeData.main} />
-  render () {
+  render() {
     return (
       <div className='App'>
         <Header data={this.state.resumeData.main} />
@@ -51,6 +51,7 @@ class App extends Component {
         <Portfolio data={this.state.resumeData.portfolio} />
         <Recommendations data={this.state.resumeData.recommendations} />
         <Footer data={this.state.resumeData.main} />
+        {/*<Contact data={this.state.resumeData.main} />*/}
       </div>
     )
   }

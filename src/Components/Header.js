@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Header extends Component {
-  render () {
+  render() {
     if (this.props.data) {
       var name = this.props.data.name
       var occupation = this.props.data.occupation
@@ -54,14 +54,15 @@ class Header extends Component {
                 Recommendations
               </a>
             </li>
-            <li>
+            {/* BEAU > REMOVED THE CONTACT OPTION FROM THE HEADER AS REPLACED IT WITH CHAT WIDGET}
+            {/*<li>
               <a
                 className='smoothscroll'
                 href='https://tawk.to/chat/5efd85339e5f69442291b5df/default'
               >
                 Contact
               </a>
-            </li>
+            </li>*/}
           </ul>
         </nav>
 
