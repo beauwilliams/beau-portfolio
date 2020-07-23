@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-sdk": "^2.717.0",
+    "google-auth-library": "^6.0.5",
     "jquery": "^3.2.1",
+    "module": "^1.2.5",
+    "newrelic": "^6.11.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "request": "^2.88.2"
   },
   "scripts": {
     "start": "react-scripts start",

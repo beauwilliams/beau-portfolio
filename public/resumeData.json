@@ -13,8 +13,8 @@
       "state": "NSW",
       "zip": "Australia"
     },
-    "website": "http://www.FILLTHISIN.com",
-    "resumedownload": "http://FILLTHISIN.com",
+    "website": "beauwilliams.dev",
+    "resumedownload": "beauwilliams.dev",
     "social": [
       {
         "name": "linkedin",
@@ -126,10 +126,10 @@
         "url": "https://beauwilliams.github.io/MSA-AUS-2020-AzureML/"
       },
       {
-        "title": "Dotfiles Repository",
-        "category": "Various dotfiles such as zsh/bash, nvim/vim etc that I have spent a fair emount of time building",
-        "image": "dotfiles.jpg",
-        "url": "https://beauwilliams.github.io/MSA-AUS-2020-AzureML/"
+        "title": "DSC MQ Website",
+        "category": "Built and delpoyed a website borring a design from ATC uni for the launch of the Macquarie University Google Developer Student club that I lead",
+        "image": "dscmq.png",
+        "url": "https://dscmq.herokuapp.com"
       }
     ]
   },
