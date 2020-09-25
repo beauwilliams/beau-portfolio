@@ -24,5 +24,11 @@
   "main": "index.js",
   "repository": "https://github.com/beauwilliams/beau-portfolio.git",
   "author": "beauwilliams <beau.williams@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2"
+  }
 }
