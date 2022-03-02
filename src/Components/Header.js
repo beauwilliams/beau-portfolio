@@ -35,6 +35,11 @@ class Header extends Component {
               </a>
             </li>
             <li>
+              <a className='' href='https://blog.beauwilliams.dev'>
+                Blog
+              </a>
+            </li>
+            <li>
               <a className='smoothscroll' href='#about'>
                 About Me
               </a>
